@@ -50,7 +50,10 @@
 | persistence   | right-aligned |   
 
 
-### Compilation and Execution
+## Concrete Job Implementation and Batch pipelines
+![job-implementation](static/job-implementation.png)
+
+## Compilation and Execution
 
 This is a *Maven 3.X* project, so the following commands are relevant:
 
