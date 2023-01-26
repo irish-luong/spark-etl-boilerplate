@@ -61,13 +61,13 @@ This is a *Maven 3.X* project, so the following commands are relevant:
 
 - Once the application *jar* file is created, the program can be executed by running:
 
-  `java -jar batch-app-0.0.1-SNAPSHOT.jar jobName=[jobName] [parameters]`
+  `java -jar spark-etl-boilerplate-1.0-SNAPSHOT.jar jobName=[jobName] [parameters]`
 
   Where the jar name can be configured or changed in the `pom.xml` file.
 
 - There is a Dummy Job that runs the application beginning to end, to do so, compile as described above and run:
 
-  `java -jar batch-app-0.0.1-SNAPSHOT.jar` jobName=sparkJob
+  `java -jar spark-etl-boilerplate-1.0-SNAPSHOT.jar` jobName=sparkJob
 
 
 
